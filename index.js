@@ -5,10 +5,10 @@ var Eng = +prompt("Enter your  Eng num")
 var Urdu = +prompt("Enter your Urdu num")
 var result= Eng + Urdu; 
 
-alert("Your total number is " + "" + result)
+alert("Your total number is " + "" + result);
  
-var persentage= result /100*500;
-var round = Eng.round(persentage);
+var percentage= result /100 * 500;
+var round = Eng.round(percentage);
 
-alert("your persentage is" + ""+ round+"%")
+alert("your percentage is" + "" + round+"%")
 
