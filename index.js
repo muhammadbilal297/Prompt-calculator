@@ -1,10 +1,14 @@
 var userName = prompt("Enter your Name")
-alert("Welcome " + userName)
+alert("Welcome "+ "" + userName)
 
-var math = +prompt("Enter your Maths num")
-var bio = +prompt("Enter your Biology num")
-var phy = +prompt("Enter your Physics num")
-var result= math + Biology + phy
+var Eng = +prompt("Enter your  Eng num")
+var Urdu = +prompt("Enter your Urdu num")
+var result= Eng + Urdu; 
 
-alert("Your total number is " + result)
+alert("Your total number is " + "" + result)
+ 
+var persentage= result /100*500;
+var round = Eng.round(persentage);
+
+alert("your persentage is" + ""+ round+"%")
 
